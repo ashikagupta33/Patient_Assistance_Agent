@@ -1,0 +1,44 @@
+{
+  "fileName": "evaluation-set-default.json",
+  "id": "c7af658c-f277-4adc-b274-7d38128f71de",
+  "name": "Default Evaluation Set",
+  "batchSize": 10,
+  "timeoutMinutes": 20,
+  "evaluatorRefs": [
+    "33bbe989-0b3c-4251-8867-45cc3e8916c1"
+  ],
+  "evaluations": [
+    {
+      "id": "670e8449-7549-43aa-8812-2b557c28d50b",
+      "name": "Debug Run 9/25/2026, 10:22:22 PM",
+      "inputs": {
+        "name": "",
+        "age": 0,
+        "gender": "",
+        "symptoms": "",
+        "symptomsDuration": "",
+        "severity": "",
+        "action": ""
+      },
+      "expectedOutput": {
+        "Email_Body": "Name: \nAge: 0\nGender: \nSymptoms: \nSymptoms Duration: \nSeverity: \nRecommended Action: \nBest regard\nPatient Assistance System"
+      },
+      "expectedAgentBehavior": "",
+      "simulationInstructions": "",
+      "simulateInput": false,
+      "inputGenerationInstructions": "",
+      "simulateTools": false,
+      "evalSetId": "c7af658c-f277-4adc-b274-7d38128f71de",
+      "createdAt": "2026-09-25T16:52:22.964Z",
+      "updatedAt": "2026-09-25T16:52:22.964Z",
+      "source": "firstSuccessfulRun"
+    }
+  ],
+  "modelSettings": [],
+  "agentMemoryEnabled": false,
+  "agentMemorySettings": [],
+  "lineByLineEvaluation": false,
+  "createdAt": "2026-09-25T16:42:44.859Z",
+  "updatedAt": "2026-09-25T16:52:22.964Z",
+  "category": 1
+}

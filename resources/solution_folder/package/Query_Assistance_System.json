@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Query_Assistance_System",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "8e519ed5-5a8f-4781-8c60-53be9865710e",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "Query_Assistance_System",
+      "description": null
+    },
+    "locks": [],
+    "key": "6e8939d8-904d-4812-b3fa-644abafa886f"
+  }
+}

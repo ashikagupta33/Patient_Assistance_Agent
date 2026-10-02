@@ -1,0 +1,39 @@
+{
+  "fileName": "evaluation-set-default.json",
+  "id": "5026246b-be1a-4751-aa49-cee6e064a2e2",
+  "name": "Default Evaluation Set",
+  "batchSize": 10,
+  "evaluatorRefs": [
+    "6e5abc63-25cf-4c2f-9888-5ed02fbda4a5"
+  ],
+  "evaluations": [
+    {
+      "id": "abc619b9-965e-40ef-9a93-acbb314d45a9",
+      "name": "Debug Run 9/24/2026, 11:23:02 PM",
+      "inputs": {
+        "Gender": "",
+        "Symptoms": "",
+        "Symptoms_Duration": ""
+      },
+      "expectedOutput": {
+        "Severity": "unknown",
+        "Action": "consult a healthcare professional for assessment."
+      },
+      "expectedAgentBehavior": "",
+      "simulationInstructions": "",
+      "simulateInput": false,
+      "inputGenerationInstructions": "",
+      "simulateTools": false,
+      "evalSetId": "5026246b-be1a-4751-aa49-cee6e064a2e2",
+      "createdAt": "2026-09-24T17:53:02.955Z",
+      "updatedAt": "2026-09-24T17:53:02.955Z",
+      "source": "firstSuccessfulRun"
+    }
+  ],
+  "modelSettings": [],
+  "createdAt": "2026-09-24T16:39:30.387Z",
+  "updatedAt": "2026-09-24T17:53:02.955Z",
+  "agentMemoryEnabled": false,
+  "agentMemorySettings": [],
+  "lineByLineEvaluation": false
+}

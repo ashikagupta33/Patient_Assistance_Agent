@@ -1,0 +1,49 @@
+{
+  "docVersion": "1.0.0",
+  "tenants": [
+    {
+      "tenantKey": "e54d91a9-0597-4936-ba44-2cd0d5ba841c",
+      "resources": [
+        {
+          "solutionResourceKey": "5d480c29-95bb-4798-7372-08df1269eaf0",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "5d480c29-95bb-4798-7372-08df1269eaf0",
+            "resourceName": "Patient symptoms Severity",
+            "folderKey": "bbb4d606-1ed4-41c9-b308-5cd69d0d1647",
+            "folderFullyQualifiedName": "Shared",
+            "folderPath": "bbb4d606-1ed4-41c9-b308-5cd69d0d1647",
+            "type": "Reference",
+            "kind": "index"
+          }
+        },
+        {
+          "solutionResourceKey": "4fb9c2ea-7e9d-49c7-a930-6480fc340242",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "4fb9c2ea-7e9d-49c7-a930-6480fc340242",
+            "resourceName": "PatientSymptomsData",
+            "folderKey": "bbb4d606-1ed4-41c9-b308-5cd69d0d1647",
+            "folderFullyQualifiedName": "Shared",
+            "folderPath": "bbb4d606-1ed4-41c9-b308-5cd69d0d1647",
+            "type": "Reference",
+            "kind": "bucket"
+          }
+        },
+        {
+          "solutionResourceKey": "e24feb51-ea83-493d-85c9-955837746d10",
+          "reprovisioningIndex": 0,
+          "overwrite": {
+            "resourceKey": "e24feb51-ea83-493d-85c9-955837746d10",
+            "resourceName": "omprakashgupta814154@gmail.com",
+            "folderKey": "446a6ff9-c3bc-4059-8fba-5b7495d73982",
+            "folderFullyQualifiedName": "omprakashgupta814154@gmail.com\u0027s workspace",
+            "folderPath": "75c36d21-b528-4347-add3-02bae8deaa50.446a6ff9-c3bc-4059-8fba-5b7495d73982",
+            "type": "Reference",
+            "kind": "connection"
+          }
+        }
+      ]
+    }
+  ]
+}

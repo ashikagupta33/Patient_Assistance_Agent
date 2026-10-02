@@ -1,0 +1,29 @@
+{
+  "SolutionId": "74f7fd46-62fe-402a-96c7-08df193a7638",
+  "Projects": [
+    {
+      "ProjectId": "2afbc498-9ea2-4666-8779-180e509c22b2",
+      "ProjectRelativePath": "Send_Email/project.uiproj"
+    },
+    {
+      "ProjectId": "9404a2fd-e029-47a0-b4c6-242c67d6eb5d",
+      "ProjectRelativePath": "Doctor_Approval_App/project.uiproj"
+    },
+    {
+      "ProjectId": "37cb49f4-5123-4ca0-91b4-2abf41de6896",
+      "ProjectRelativePath": "Query_Assistance_System/project.uiproj"
+    },
+    {
+      "ProjectId": "6cccee5f-2ab4-4370-92fe-47d54998a234",
+      "ProjectRelativePath": "Flow/project.uiproj"
+    },
+    {
+      "ProjectId": "12b551b2-06ef-468a-90a7-758c2c39dce8",
+      "ProjectRelativePath": "Email_Generation_Agent/project.uiproj"
+    },
+    {
+      "ProjectId": "9eac5fcf-311c-4bb5-b2ef-dd6be5fe510e",
+      "ProjectRelativePath": "Severity_Analysis_Agent/project.uiproj"
+    }
+  ]
+}

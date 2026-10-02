@@ -1,0 +1,27 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "PatientSymptomsData",
+    "kind": "bucket",
+    "type": "orchestratorBucket",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Orchestrator",
+      "name": "PatientSymptomsData",
+      "description": "It contains symptoms of patient.",
+      "options": null,
+      "tags": []
+    },
+    "locks": [],
+    "key": "4fb9c2ea-7e9d-49c7-a930-6480fc340242"
+  }
+}

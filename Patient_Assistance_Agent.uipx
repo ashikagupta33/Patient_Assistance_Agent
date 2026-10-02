@@ -1,0 +1,38 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "74f7fd46-62fe-402a-96c7-08df193a7638",
+  "Projects": [
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "Send_Email/project.uiproj",
+      "Id": "de988b26-73ed-4941-aa82-e4a11cf13d9b"
+    },
+    {
+      "Type": "WebApp",
+      "ProjectRelativePath": "Doctor_Approval_App/project.uiproj",
+      "Id": "ae99f015-be8b-424a-9e1b-39aecd43ef1c"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "Query_Assistance_System/project.uiproj",
+      "Id": "8e519ed5-5a8f-4781-8c60-53be9865710e"
+    },
+    {
+      "Type": "ProcessOrchestration",
+      "ProjectRelativePath": "Flow/project.uiproj",
+      "Id": "c745f87b-e4b5-4e27-a2bd-1de8fafbcaf3"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "Email_Generation_Agent/project.uiproj",
+      "Id": "50c77487-1779-48d3-a41e-b0a582f74d83"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "Severity_Analysis_Agent/project.uiproj",
+      "Id": "e6e8c644-5848-4dbd-b8c5-4b939a125802"
+    }
+  ],
+  "AutomationHubIdeaUrl": null
+}

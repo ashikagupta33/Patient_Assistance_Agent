@@ -1,0 +1,6 @@
+{
+  "escalationAppPrompt": "Create a Uipath Action Schema for a patient Escalation with two outcomes, Approve and Reject, and six required input properties: PatientName (String),Age (Int32),Gender (String), Symptoms (String), SymptomsDuration (String), and Severity (String). Use clear descriptionfor each field and do not  add any additional properties.",
+  "appUsageType": "1",
+  "isLocalWorkspace": "false",
+  "projectType": "Process"
+}

@@ -1,0 +1,71 @@
+{
+  "version": "1.2.0",
+  "settings": {
+    "model": "gpt-5.6-terra",
+    "maxTokens": 128000,
+    "temperature": 0,
+    "engine": "basic-v2",
+    "maxIterations": 25,
+    "mode": "standard"
+  },
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "Gender": {
+        "type": "string"
+      },
+      "Symptoms": {
+        "type": "string"
+      },
+      "Symptoms_Duration": {
+        "type": "string"
+      }
+    },
+    "title": "Inputs",
+    "required": [
+      "Gender"
+    ]
+  },
+  "outputSchema": {
+    "type": "object",
+    "properties": {
+      "Severity": {
+        "type": "string"
+      },
+      "Action": {
+        "type": "string"
+      }
+    },
+    "title": "Outputs"
+  },
+  "metadata": {
+    "storageVersion": "50.0.0",
+    "isConversational": false,
+    "targetRuntime": "pythonAgent",
+    "showProjectCreationExperience": false
+  },
+  "type": "lowCode",
+  "projectId": "9eac5fcf-311c-4bb5-b2ef-dd6be5fe510e",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a Patient Severity Assessment Agent.\nyour task is ti analyze the patient's symptoms and determine the appropriate severity and action by comparing the symptoms with the provided excel context dataset.\nuse the excel dataset as the primary source for determining theseverity and corresponding action.\npatient information may include:\nName\nAge\nGende\nSymptoms\nSymptoms Duration \nEmail\nAnalyze the symptoms, find the closest relevent conditionor symptom pattern in theexcel context, and return only:\nSeverity:[Low/Medium/High/Critical]\nAction: [Recommended action based on the matched context]\nRules:\nuse the excel context dataset to determine the severityand action.\nMatch the patient's symptoms as closely as possible to the symptoms in the dataset.Consider multiple symptoms together rather than matching only one symptom.\nif multiple possible matches exist, use the context that represent the more urgent severity.\nDo not diagnose the patient.\nDo not prscribe medecines.\nDo not provide explanation,reports,patient detail, or additional text.\nif the symptoms closely match a Critical condition, the action must indicate thaturgent/emergency medical attention is required. \nif there is no resonable match in the dataset, return:\nSeverity: unknown\nAction: consult a healthcare professional for assessment.\n",
+      "contentTokens": [
+        {
+          "type": "simpleText",
+          "rawString": "You are a Patient Severity Assessment Agent.\nyour task is ti analyze the patient's symptoms and determine the appropriate severity and action by comparing the symptoms with the provided excel context dataset.\nuse the excel dataset as the primary source for determining theseverity and corresponding action.\npatient information may include:\nName\nAge\nGende\nSymptoms\nSymptoms Duration \nEmail\nAnalyze the symptoms, find the closest relevent conditionor symptom pattern in theexcel context, and return only:\nSeverity:[Low/Medium/High/Critical]\nAction: [Recommended action based on the matched context]\nRules:\nuse the excel context dataset to determine the severityand action.\nMatch the patient's symptoms as closely as possible to the symptoms in the dataset.Consider multiple symptoms together rather than matching only one symptom.\nif multiple possible matches exist, use the context that represent the more urgent severity.\nDo not diagnose the patient.\nDo not prscribe medecines.\nDo not provide explanation,reports,patient detail, or additional text.\nif the symptoms closely match a Critical condition, the action must indicate thaturgent/emergency medical attention is required. \nif there is no resonable match in the dataset, return:\nSeverity: unknown\nAction: consult a healthcare professional for assessment.\n"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Analyze the following patient symptoms using the provided excel severity dataset.\nGender:{{input.Gender}}\nSymptoms:{{input.Symptoms}}\nSymptoms Duration:{{input.Symptoms_Duration}}\ncompare the symptoms with the excel context and determine the corresponding severity and action.\nReturn ONLY:\nSeverity: <severity>\nAction: <action>",
+      "contentTokens": [
+        {
+          "type": "simpleText",
+          "rawString": "Analyze the following patient symptoms using the provided excel severity dataset.\nGender:{{input.Gender}}\nSymptoms:{{input.Symptoms}}\nSymptoms Duration:{{input.Symptoms_Duration}}\ncompare the symptoms with the excel context and determine the corresponding severity and action.\nReturn ONLY:\nSeverity: <severity>\nAction: <action>"
+        }
+      ]
+    }
+  ]
+}

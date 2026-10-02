@@ -1,0 +1,10 @@
+{
+  "ProjectType": "WebApp",
+  "WebAppSettings": {
+    "AppId": "ID8ae2a5fe598843308881c02df4486516",
+    "IsCoreProject": true
+  },
+  "Name": "Doctor_Approval_App",
+  "Description": null,
+  "MainFile": "Main.xaml"
+}
